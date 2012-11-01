@@ -1,0 +1,12 @@
+html {
+  background-size:100% auto;
+  background-position:50% 50%;
+  height:100%;
+}
+body {font-family: 'Crimson Text', serif;color:#fff;text-shadow:1px 1px 3px rgba(0,0,0,0.5);}
+h1{font-size:5em;margin:0;padding:0;}
+h1 a{color:#fff;text-decoration:none;}
+#song-meta{display:none;margin:0;font-size:1.5em;}
+#chapter-text{position:absolute;top:30%;left:15%;width:70%;font-size:1.5em;}
+#next-chapter{font-size:1em;top:auto;left:0;bottom:1em;text-align:right;position:absolute;}
+#next-chapter a{color:#fff;}
