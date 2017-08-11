@@ -11,7 +11,12 @@ $(document).ready(function() {
   		clearInterval(timer);
   		run();
 	});
+	
+	chapter_timer = setInterval(run(),90000);
+	
 });
+
+var chapter_timer;
 
 var typewrite = function(element) {
             var ele = $(element), str = ele.text(), progress = 0;
